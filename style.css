@@ -109,4 +109,41 @@ html {
     background-color: #f0f9ff;
     box-shadow: 0px 0px 4px lightgray;
     grid-area: 2 / 2 / 3 / 3;
+    display: flex;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 70%;
+}
+
+.projects h2 {
+    margin-left: min(2vw, 2vh);
+    margin-top: min(4vw, 4vh);
+}
+
+.grid {
+    display: grid;
+    height: 82%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: min(3vw, 3vh);
+    margin: min(2vw, 2vh);
+}
+
+.project {
+    background-color: white;
+}
+
+
+.alerts {
+    box-sizing: border-box;
+    width:30%;
+    margin-top: min(4vw, 4vh);
+    margin-right: min(2vw, 2vh);
+    display: flex;
+    flex-direction: column;
+    gap: min(3vw, 3vh);
 }
